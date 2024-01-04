@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.header {
+  opacity: 0;
+  transform: translateY(-200%);
+  animation: fadeInAndSlideIn 2s ease-in-out forwards;
+}
+@keyframes fadeInAndSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
