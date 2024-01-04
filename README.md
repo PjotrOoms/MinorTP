@@ -1,3 +1,7 @@
+Dit is een website voor Project B van de minor Toegepaste Psychologie. De uitleg over de opdracht en het onderzoek is allemaal te vinden op de website zelf. Hieronder staat een korte readme van Next.js
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
