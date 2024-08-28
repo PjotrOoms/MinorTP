@@ -162,7 +162,9 @@ export default function Test() {
         </p>
         <p className="mt-2 text-white">Een gemiddelde score is 29. </p>
         {totalScore !== null && (
-          <p className="mt-6 text-white">Total Points: {totalScore}</p>
+          <p className="mt-6 text-white font-bold bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-lg shadow-lg w-3/4 lg:w-1/2 mx-auto">
+            Totaal aantal punten: {totalScore}
+          </p>
         )}
       </div>
       <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
